@@ -1,0 +1,100 @@
+﻿body {
+    padding: 6px;
+    background-image: url(https://images.unsplash.com/photo-1573868507561-c859b3ce5818?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3687&q=80);
+    background-size: 100%;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+    background-color: darkgrey;
+    border-radius: 8px;
+    box-shadow: 4px 3px 2px black;
+}
+
+#searchEngineName {
+    font-style: italic;
+}
+
+    #searchEngineName:hover {
+        color: darkred;
+    }
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+    font-weight: bold;
+    color: crimson;
+    cursor: pointer;
+    text-decoration: underline;
+    text-indent: 4vw;
+}
+
+p {
+    font-size: 35px;
+    margin: 0;
+    font-style: italic;
+    color: white;
+}
+
+#crimson-A {
+    width: 150px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: -80vw; /* Adjust margin as needed */
+    border-radius: 6px;
+    transform: translateY(-15vh);
+}
+
+#resultsP {
+    color: black;
+}
+
+#searchResults {
+    visibility: hidden;
+}
+
+#time {
+    visibility: hidden;
+}
+
+#query {
+    width: 300px;
+    height: 40px;
+}
+
+#searchBtn {
+    width: 100px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+    #searchBtn:hover {
+        background-color: gray;
+        color: black;
+    }
+
+#luckyBtn {
+    width: 120px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+    #luckyBtn:hover {
+        background-color: gray;
+        color: black;
+    }
+
+#timeButton {
+    width: 100px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+    #timeButton:hover {
+        background-color: gray;
+        color: black;
+    }

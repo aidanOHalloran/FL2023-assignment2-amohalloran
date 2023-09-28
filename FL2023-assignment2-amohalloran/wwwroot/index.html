@@ -1,0 +1,64 @@
+﻿<!doctype html>
+
+<html lang="en">
+
+<head>
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs"
+    crossorigin="anonymous"></script>
+  <!-- jQuery UI -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css"
+    integrity="sha384-s5lqL1NMu1TdDS/75EsR2IKqj5g2SbplE63nRqwT70/kcm2uFLqKGOCp1phJ2ENd" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"
+    integrity="sha384-4D3G3GikQs6hLlLZGdz5wLFzuqE9v4yVGAcOH86y23JqBDPzj9viv0EqyfIa6YUL"
+    crossorigin="anonymous"></script>
+  <!-- jQuery UI theme: black-tie -->
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/black-tie/jquery-ui.css"
+    integrity="sha384-ZboGtWkmfTQl6XR6jI1g/Ww+AYFCPbIRk3F1CRMICWJ5/LVuetDJxCjHfLX91XAP" crossorigin="anonymous">
+  <link rel="stylesheet" href="./index.css">
+
+  <title>Crimson Connection</title>
+</head>
+
+<body>
+  <!-- header with h1 and p tag -->
+  <header>
+    <h1 id="searchEngineName">Crimson Connection</h1>
+    <img src="https://mybama.ua.edu/images/WLAM_horizontal_reverse.png" alt="Logo" id="logo">
+    <img src="https://tse1.mm.bing.net/th?id=OIP.T2Y87d440TZemntk8Uc4pQHaHa&pid=Api&P=0&h=220" alt="crimson-A" id="crimson-A">
+  </header>
+
+  <br>
+  <!-- textbox input -->
+  <input type="text" id="query">
+
+  <br>
+  <br>
+
+
+  <button value="Search" id="searchBtn">Search</button>
+  <button value="lucky" id="luckyBtn">I'm Feeling Lucky</button>
+  <!-- time btn -->
+  <button id="timeButton">Current Time</button>
+
+  <br>
+  <!-- search results div -->
+  <div id="searchResults" class="results-container">
+    <!-- Container for search results -->
+    <div id="searchResultContent"></div>
+
+    <!-- Navigation buttons -->
+    <button id="previousResultBtn">Previous</button>
+    <button id="nextResultBtn">Next</button>
+  </div>
+
+  <br>
+  <!-- time div -->
+  <div id="time"></div>
+
+
+  <script type="text/javascript" src="./index.js"></script>
+</body>
+
+</html>
